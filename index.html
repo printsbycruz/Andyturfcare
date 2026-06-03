@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andy's Turf Care | Professional Lawn Care & Landscaping in Georgia</title>
+  <meta name="description" content="Andy's Turf Care provides professional lawn mowing, landscaping, mulch installation, hedge trimming, and more across Georgia. Call for a free quote today!" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════ NAV ═══════════════════════════ -->
+  <header class="site-header" id="top">
+    <div class="container nav-inner">
+      <a href="#top" class="logo">
+        <span class="logo-icon">✦</span>
+        <span class="logo-text">Andy's <strong>Turf Care</strong></span>
+      </a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#contact" class="btn btn-nav">Free Quote</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" onclick="closeMobile()">About</a>
+      <a href="#services" onclick="closeMobile()">Services</a>
+      <a href="#gallery" onclick="closeMobile()">Gallery</a>
+      <a href="#testimonials" onclick="closeMobile()">Reviews</a>
+      <a href="#contact" class="btn btn-green" onclick="closeMobile()">Free Quote</a>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-texture"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">🌿 Georgia's Trusted Lawn Pros</div>
+      <h1 class="hero-title">
+        Your Lawn.<br />
+        <em>Our Pride.</em>
+      </h1>
+      <p class="hero-subtitle">
+        Professional lawn care and landscaping services for residential and commercial properties across Georgia. Clean cuts, reliable service, and results that speak for themselves.
+      </p>
+      <div class="hero-cta-group">
+        <a href="#contact" class="btn btn-green btn-lg">Get a Free Quote</a>
+        <a href="tel:+10000000000" class="btn btn-outline-white btn-lg">📞 (000) 000-0000</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">500+</span><span class="stat-label">Lawns Served</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">10+</span><span class="stat-label">Years Experience</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Satisfaction Goal</span></div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ TRUST BAR ═══════════════════════ -->
+  <section class="trust-bar">
+    <div class="container trust-inner">
+      <div class="trust-item">✅ Locally Owned &amp; Operated</div>
+      <div class="trust-item">✅ Free Estimates</div>
+      <div class="trust-item">✅ Residential &amp; Commercial</div>
+      <div class="trust-item">✅ Fully Insured</div>
+      <div class="trust-item">✅ Serving All of Georgia</div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ ABOUT ════════════════════════════ -->
+  <section class="about section-pad" id="about">
+    <div class="container about-grid">
+      <div class="about-images">
+        <div class="img-card img-card-main">
+          <div class="img-placeholder img-tall">
+            <span class="ph-icon">🌿</span>
+            <span class="ph-label">Photo of Andy & crew</span>
+          </div>
+        </div>
+        <div class="img-card img-card-accent">
+          <div class="img-placeholder img-square">
+            <span class="ph-icon">🏡</span>
+            <span class="ph-label">Completed lawn job</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-copy">
+        <span class="section-tag">About Us</span>
+        <h2 class="section-title">Built on Hard Work &amp; Honest Service</h2>
+        <p>Andy's Turf Care was founded on a simple belief: every property deserves to look its best, and every customer deserves straightforward, reliable service. Based right here in Georgia, we bring the same dedication to a sprawling commercial campus as we do to your front yard.</p>
+        <p>Andy and his team show up on time, communicate clearly, and leave every property looking sharp. No shortcuts. No surprises on the bill.</p>
+        <div class="about-highlights">
+          <div class="highlight-item">
+            <span class="h-icon">📍</span>
+            <div>
+              <strong>Service Area</strong>
+              <span>Your City &amp; surrounding Georgia communities</span>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <span class="h-icon">📅</span>
+            <div>
+              <strong>Availability</strong>
+              <span>Mon – Sat, flexible scheduling</span>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <span class="h-icon">💬</span>
+            <div>
+              <strong>Quick Response</strong>
+              <span>We reply within 1 business day</span>
+            </div>
+          </div>
+        </div>
+        <a href="#contact" class="btn btn-green">Work With Us →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ SERVICES ══════════════════════════ -->
+  <section class="services section-pad" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Do</span>
+        <h2 class="section-title">Services We Offer</h2>
+        <p class="section-sub">From a basic mow to a full yard transformation — we handle it all.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">🌾</div>
+          <h3>Lawn Mowing</h3>
+          <p>Consistent, clean cuts that keep your lawn healthy and looking pristine all season long.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🧹</div>
+          <h3>Yard Maintenance</h3>
+          <p>Full-service upkeep including edging, blowing, and detail work for a polished finish every visit.</p>
+        </div>
+        <div class="service-card service-card-featured">
+          <div class="featured-badge">Popular</div>
+          <div class="service-icon">🪵</div>
+          <h3>Mulch Installation</h3>
+          <p>Fresh mulch installation that enhances curb appeal, retains moisture, and suppresses weeds.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🌲</div>
+          <h3>Pine Straw</h3>
+          <p>Professional pine straw laying — a Georgia classic that looks great and protects your beds.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">✂️</div>
+          <h3>Hedge Trimming</h3>
+          <p>Precise trimming for shrubs, hedges, and topiaries that keep your landscape looking sharp.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🍂</div>
+          <h3>Cleanups</h3>
+          <p>Seasonal and one-time cleanups to clear debris, leaves, and overgrowth from any property.</p>
+        </div>
+        <div class="service-card service-card-wide">
+          <div class="service-icon">🏢</div>
+          <h3>Commercial &amp; Residential Lawn Care</h3>
+          <p>Whether it's a single-family home, HOA community, retail storefront, or large commercial property — Andy's Turf Care has the equipment and experience to handle any scale.</p>
+        </div>
+      </div>
+      <div class="services-cta">
+        <p>Not sure what you need? We'll assess your property and recommend the right plan.</p>
+        <a href="#contact" class="btn btn-green btn-lg">Request a Free Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ GALLERY ═══════════════════════════ -->
+  <section class="gallery section-pad" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Work</span>
+        <h2 class="section-title">See the Results</h2>
+        <p class="section-sub">Every property is a project we take pride in.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-item-large">
+          <div class="img-placeholder gallery-ph">
+            <span class="ph-icon">🏡</span>
+            <span class="ph-label">Residential front yard — before &amp; after</span>
+          </div>
+          <div class="gallery-overlay"><span>Residential Lawn Mowing</span></div>
+        </div>
+        <div class="gallery-item">
+          <div class="img-placeholder gallery-ph">
+            <span class="ph-icon">🪵</span>
+            <span class="ph-label">Fresh mulch installation</span>
+          </div>
+          <div class="gallery-overlay"><span>Mulch Installation</span></div>
+        </div>
+        <div class="gallery-item">
+          <div class="img-placeholder gallery-ph">
+            <span class="ph-icon">✂️</span>
+            <span class="ph-label">Hedge trimming job</span>
+          </div>
+          <div class="gallery-overlay"><span>Hedge Trimming</span></div>
+        </div>
+        <div class="gallery-item">
+          <div class="img-placeholder gallery-ph">
+            <span class="ph-icon">🌲</span>
+            <span class="ph-label">Pine straw beds</span>
+          </div>
+          <div class="gallery-overlay"><span>Pine Straw</span></div>
+        </div>
+        <div class="gallery-item">
+          <div class="img-placeholder gallery-ph">
+            <span class="ph-icon">🏢</span>
+            <span class="ph-label">Commercial property</span>
+          </div>
+          <div class="gallery-overlay"><span>Commercial Property</span></div>
+        </div>
+        <div class="gallery-item">
+          <div class="img-placeholder gallery-ph">
+            <span class="ph-icon">🍂</span>
+            <span class="ph-label">Fall cleanup</span>
+          </div>
+          <div class="gallery-overlay"><span>Seasonal Cleanup</span></div>
+        </div>
+      </div>
+      <p class="gallery-note">📸 Replace placeholders with your real project photos for maximum impact!</p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ WHY US ════════════════════════════ -->
+  <section class="whyus section-pad" id="whyus">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-tag tag-light">Why Andy's</span>
+        <h2 class="section-title light-title">Why Customers Choose Us</h2>
+        <p class="section-sub light-sub">We don't just cut grass — we care about your property.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-num">01</div>
+          <h3>Reliable &amp; On Time</h3>
+          <p>We show up when we say we will — every single time. No waiting around for a crew that never arrives.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-num">02</div>
+          <h3>Transparent Pricing</h3>
+          <p>You get a clear, upfront quote before any work starts. No surprise fees or hidden charges.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-num">03</div>
+          <h3>Attention to Detail</h3>
+          <p>From edging to cleanup, we don't cut corners — literally. Every job is finished to a high standard.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-num">04</div>
+          <h3>Local Georgia Roots</h3>
+          <p>We're your neighbors. We know the Georgia climate and what it takes to keep lawns healthy here year-round.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-num">05</div>
+          <h3>Fully Insured</h3>
+          <p>Work with confidence knowing Andy's Turf Care is fully insured for your protection and peace of mind.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-num">06</div>
+          <h3>Commercial Ready</h3>
+          <p>We have the crew and equipment to handle large commercial properties with the same care as residential jobs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ TESTIMONIALS ══════════════════════ -->
+  <section class="testimonials section-pad" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Reviews</span>
+        <h2 class="section-title">What Our Customers Say</h2>
+        <p class="section-sub">Real results. Real neighbors. Real reviews.</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testi-card testi-featured">
+          <div class="testi-stars">★★★★★</div>
+          <blockquote>"Andy and his team have been maintaining our lawn for two years now. They're always on time, thorough, and our yard has never looked better. Highly recommend to anyone in the area!"</blockquote>
+          <div class="testi-author">
+            <div class="testi-avatar">JM</div>
+            <div>
+              <strong>Jennifer M.</strong>
+              <span>Homeowner — Atlanta, GA</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <blockquote>"Used Andy's for a full mulch installation and cleanup before selling my house. The difference was night and day — it definitely helped with curb appeal. Great price too."</blockquote>
+          <div class="testi-author">
+            <div class="testi-avatar">DR</div>
+            <div>
+              <strong>David R.</strong>
+              <span>Homeowner — Marietta, GA</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <blockquote>"We use Andy's Turf Care for our retail shopping center. They handle the whole property and always leave it looking clean and professional. Very dependable service."</blockquote>
+          <div class="testi-author">
+            <div class="testi-avatar">TP</div>
+            <div>
+              <strong>Tom P.</strong>
+              <span>Property Manager — Kennesaw, GA</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <blockquote>"Fantastic job on the pine straw and hedge trimming. Andy was professional, gave us a fair quote, and finished the job faster than I expected. Will absolutely be calling again!"</blockquote>
+          <div class="testi-author">
+            <div class="testi-avatar">SL</div>
+            <div>
+              <strong>Sandra L.</strong>
+              <span>Homeowner — Roswell, GA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ CONTACT ═══════════════════════════ -->
+  <section class="contact section-pad" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <span class="section-tag tag-light">Get In Touch</span>
+        <h2 class="section-title light-title">Request Your Free Quote</h2>
+        <p class="contact-sub">Ready for a lawn that makes the neighbors jealous? Reach out today and we'll get back to you within 1 business day.</p>
+        <div class="contact-methods">
+          <a href="tel:+10000000000" class="contact-method">
+            <span class="cm-icon">📞</span>
+            <div>
+              <strong>Call or Text</strong>
+              <span>(000) 000-0000</span>
+            </div>
+          </a>
+          <a href="mailto:andy@andysturfcare.com" class="contact-method">
+            <span class="cm-icon">✉️</span>
+            <div>
+              <strong>Email Us</strong>
+              <span>andy@andysturfcare.com</span>
+            </div>
+          </a>
+          <div class="contact-method">
+            <span class="cm-icon">📍</span>
+            <div>
+              <strong>Service Area</strong>
+              <span>Your City &amp; surrounding Georgia communities</span>
+            </div>
+          </div>
+          <div class="contact-method">
+            <span class="cm-icon">🕐</span>
+            <div>
+              <strong>Hours</strong>
+              <span>Mon – Sat: 7am – 6pm</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="quote-form-wrap">
+        <div class="quote-form">
+          <h3>Request a Free Estimate</h3>
+          <div class="form-group">
+            <label for="fname">Full Name</label>
+            <input type="text" id="fname" placeholder="John Smith" />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fphone">Phone Number</label>
+              <input type="tel" id="fphone" placeholder="(000) 000-0000" />
+            </div>
+            <div class="form-group">
+              <label for="femail">Email Address</label>
+              <input type="email" id="femail" placeholder="you@email.com" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="fservice">Service Needed</label>
+            <select id="fservice">
+              <option value="">— Select a service —</option>
+              <option>Lawn Mowing</option>
+              <option>Yard Maintenance</option>
+              <option>Mulch Installation</option>
+              <option>Pine Straw</option>
+              <option>Hedge Trimming</option>
+              <option>Cleanup</option>
+              <option>Commercial Lawn Care</option>
+              <option>Other / Not Sure</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="ftype">Property Type</label>
+            <select id="ftype">
+              <option value="">— Select type —</option>
+              <option>Residential</option>
+              <option>Commercial</option>
+              <option>HOA / Community</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="fmessage">Additional Details</label>
+            <textarea id="fmessage" rows="4" placeholder="Tell us about your property, lawn size, specific requests, or anything else we should know..."></textarea>
+          </div>
+          <button type="button" class="btn btn-green btn-full" onclick="handleFormSubmit()">Send My Request →</button>
+          <p class="form-note">We'll respond within 1 business day. No spam — ever.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ FOOTER ════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon">✦</span>
+        <span class="logo-text">Andy's <strong>Turf Care</strong></span>
+        <p>Professional lawn care &amp; landscaping<br />serving Georgia with pride.</p>
+      </div>
+      <div class="footer-links">
+        <strong>Quick Links</strong>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#contact">Free Quote</a>
+      </div>
+      <div class="footer-services">
+        <strong>Services</strong>
+        <span>Lawn Mowing</span>
+        <span>Yard Maintenance</span>
+        <span>Mulch Installation</span>
+        <span>Pine Straw</span>
+        <span>Hedge Trimming</span>
+        <span>Cleanups</span>
+      </div>
+      <div class="footer-contact">
+        <strong>Contact</strong>
+        <a href="tel:+10000000000">📞 (000) 000-0000</a>
+        <a href="mailto:andy@andysturfcare.com">✉️ andy@andysturfcare.com</a>
+        <span>📍 Georgia, USA</span>
+        <a href="#contact" class="btn btn-green footer-btn">Get Free Quote</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© 2025 Andy's Turf Care. All rights reserved.</span>
+        <span>Serving Georgia with pride 🌿</span>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#contact" class="sticky-cta" id="stickyCta">📞 Free Quote</a>
+
+  <script>
+    // Mobile menu toggle
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    hamburger.addEventListener('click', () => {
+      mobileMenu.classList.toggle('open');
+      hamburger.classList.toggle('active');
+    });
+    function closeMobile() {
+      mobileMenu.classList.remove('open');
+      hamburger.classList.remove('active');
+    }
+
+    // Sticky header on scroll
+    const header = document.querySelector('.site-header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // Sticky CTA visibility
+    const stickyCta = document.getElementById('stickyCta');
+    window.addEventListener('scroll', () => {
+      stickyCta.classList.toggle('visible', window.scrollY > 400);
+    });
+
+    // Simple scroll-reveal
+    const revealEls = document.querySelectorAll('.service-card, .why-card, .testi-card, .gallery-item, .highlight-item');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('revealed'); } });
+    }, { threshold: 0.1 });
+    revealEls.forEach(el => observer.observe(el));
+
+    // Form handler
+    function handleFormSubmit() {
+      const name = document.getElementById('fname').value.trim();
+      const phone = document.getElementById('fphone').value.trim();
+      if (!name || !phone) {
+        alert('Please fill in your name and phone number so we can reach you!');
+        return;
+      }
+      alert('Thank you, ' + name + '! We received your request and will be in touch soon. 🌿');
+    }
+  </script>
+</body>
+</html>
