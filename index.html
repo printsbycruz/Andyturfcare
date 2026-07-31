@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Andy Turf Care – Professional Landscaping | Douglasville, GA</title>
+  <meta name="description" content="Andy Turf Care – Professional landscaping, sod installation, lawn care, tree trimming, hardscaping and more. Serving Douglasville, GA. Call Jorge Molina at (770) 710-5003." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Work+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <div class="nav-logo">
+      <img src="logo.png" alt="Andy Turf Care" class="brand-logo" />
+    </div>
+    <div class="nav-links">
+      <a href="#services" data-en="Services" data-es="Servicios">Services</a>
+      <a href="#gallery" data-en="Our Work" data-es="Nuestro Trabajo">Our Work</a>
+      <a href="#contact" data-en="Contact" data-es="Contacto">Contact</a>
+      <button class="lang-btn" id="langBtn" onclick="toggleLang()">🇲🇽 Español</button>
+    </div>
+    <button class="hamburger" id="hamburger" onclick="toggleMenu()">☰</button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#services" onclick="toggleMenu()" data-en="Services" data-es="Servicios">Services</a>
+    <a href="#gallery" onclick="toggleMenu()" data-en="Our Work" data-es="Nuestro Trabajo">Our Work</a>
+    <a href="#contact" onclick="toggleMenu()" data-en="Contact" data-es="Contacto">Contact</a>
+    <button class="lang-btn" onclick="toggleLang(); toggleMenu();" style="margin-top:8px;" id="langBtnMobile">🇲🇽 Español</button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg" style="background-image:url('sod-house.jpg')"></div>
+  <div class="hero-seams"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-badge" data-en="Douglasville, GA · Licensed & Insured" data-es="Douglasville, GA · Licenciado y Asegurado">Douglasville, GA · Licensed & Insured</div>
+    <h1 class="hero-title">Andy Turf Care</h1>
+    <p class="hero-owner" data-en="Owner: Jorge Molina" data-es="Propietario: Jorge Molina">Owner: Jorge Molina</p>
+    <p class="hero-sub" data-en="Sod installation, lawn care, and landscaping — laid down right, from the ground up." data-es="Instalación de césped, cuidado de jardines y paisajismo — hecho bien, desde la raíz.">Sod installation, lawn care, and landscaping — laid down right, from the ground up.</p>
+    <div class="hero-actions">
+      <a href="tel:7707105003" class="btn-primary" data-en="Call (770) 710-5003" data-es="Llamar (770) 710-5003">Call (770) 710-5003</a>
+      <a href="#gallery" class="btn-ghost" data-en="See Our Work" data-es="Ver Nuestro Trabajo">See Our Work</a>
+    </div>
+  </div>
+  <div class="turf-edge"></div>
+</section>
+
+<!-- STATS BAR -->
+<div class="stats-bar">
+  <div class="stat">
+    <strong>250+</strong>
+    <span data-en="Projects Done" data-es="Proyectos Realizados">Projects Done</span>
+  </div>
+  <div class="stat">
+    <strong>10+</strong>
+    <span data-en="Years Experience" data-es="Años de Experiencia">Years Experience</span>
+  </div>
+  <div class="stat">
+    <strong>100%</strong>
+    <span data-en="Satisfaction" data-es="Satisfacción">Satisfaction</span>
+  </div>
+  <div class="stat">
+    <strong>Free</strong>
+    <span data-en="Estimates" data-es="Presupuestos">Estimates</span>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="services" class="services-section">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-label" data-en="What We Do" data-es="Lo Que Hacemos">What We Do</p>
+      <h2 class="section-title" data-en="Our Services" data-es="Nuestros Servicios">Our Services</h2>
+      <p class="section-sub" data-en="Professional care for every corner of your property" data-es="Cuidado profesional para cada rincón de tu propiedad">Professional care for every corner of your property</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <span class="service-icon">◧</span>
+        <h3 data-en="Sod Installation" data-es="Instalación de Césped">Sod Installation</h3>
+        <p data-en="Full-yard sod install, grading, and irrigation setup for a lawn that's ready day one." data-es="Instalación completa de césped, nivelación y sistema de riego para un jardín listo desde el primer día.">Full-yard sod install, grading, and irrigation setup for a lawn that's ready day one.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-icon">✂</span>
+        <h3 data-en="Lawn Mowing" data-es="Corte de Césped">Lawn Mowing</h3>
+        <p data-en="Weekly, bi-weekly, and one-time cuts. Edging and cleanup included." data-es="Cortes semanales, quincenales y únicos. Incluye orillado y limpieza.">Weekly, bi-weekly, and one-time cuts. Edging and cleanup included.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-icon">❀</span>
+        <h3 data-en="Tree & Shrub Trimming" data-es="Poda de Árboles y Arbustos">Tree & Shrub Trimming</h3>
+        <p data-en="Shaping, pruning, and removal of all sizes." data-es="Formación, poda y remoción de todos los tamaños.">Shaping, pruning, and removal of all sizes.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-icon">⟡</span>
+        <h3 data-en="Planting & Design" data-es="Siembra y Diseño">Planting & Design</h3>
+        <p data-en="Garden beds, flowers, shrubs, and full landscape design." data-es="Camas de jardín, flores, arbustos y diseño completo.">Garden beds, flowers, shrubs, and full landscape design.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-icon">▲</span>
+        <h3 data-en="Hardscaping" data-es="Obras Duras">Hardscaping</h3>
+        <p data-en="Patios, walkways, retaining walls, and stone work." data-es="Patios, caminos, muros de contención y trabajo en piedra.">Patios, walkways, retaining walls, and stone work.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-icon">◍</span>
+        <h3 data-en="Irrigation" data-es="Irrigación">Irrigation</h3>
+        <p data-en="Sprinkler system install, repair, and seasonal maintenance." data-es="Instalación, reparación y mantenimiento de sistemas de riego.">Sprinkler system install, repair, and seasonal maintenance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="gallery-section">
+  <div class="gallery-seams"></div>
+  <div class="container">
+    <div class="section-header light">
+      <p class="section-label" data-en="Fresh Off The Truck" data-es="Recién Instalado">Fresh Off The Truck</p>
+      <h2 class="section-title" data-en="Our Work" data-es="Nuestro Trabajo">Our Work</h2>
+      <p class="section-sub" data-en="Real sod installs and landscaping from real Douglasville-area properties" data-es="Instalaciones reales de césped y paisajismo en propiedades del área de Douglasville">Real sod installs and landscaping from real Douglasville-area properties</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item tall" data-photo="house">
+        <img src="sod-house.jpg" alt="Full front yard sod installation at a two-story brick home" loading="lazy" />
+        <div class="gallery-caption">
+          <h4 data-en="Full Yard Sod Install" data-es="Instalación Completa de Césped">Full Yard Sod Install</h4>
+          <p data-en="Fresh sod delivered, cut, and laid in a single day" data-es="Césped fresco entregado, cortado e instalado en un solo día">Fresh sod delivered, cut, and laid in a single day</p>
+        </div>
+      </div>
+      <div class="gallery-item" data-photo="crew">
+        <img src="sod-crew.jpg" alt="Landscaping crew laying sod squares by hand" loading="lazy" />
+        <div class="gallery-caption">
+          <h4 data-en="Hands-On Crew Work" data-es="Trabajo Manual del Equipo">Hands-On Crew Work</h4>
+          <p data-en="Every square placed and fitted by hand" data-es="Cada cuadro colocado y ajustado a mano">Every square placed and fitted by hand</p>
+        </div>
+      </div>
+      <div class="gallery-item" data-photo="detail">
+        <img src="sod-detail.jpg" alt="Close view of freshly installed sod with sprinklers running" loading="lazy" />
+        <div class="gallery-caption">
+          <h4 data-en="Watered In Right" data-es="Riego Correcto">Watered In Right</h4>
+          <p data-en="Irrigation set the same day for a strong root take" data-es="Riego instalado el mismo día para un buen enraizamiento">Irrigation set the same day for a strong root take</p>
+        </div>
+      </div>
+      <div class="gallery-item wide" data-photo="commercial">
+        <img src="sod-commercial.jpg" alt="Large commercial property sod installation" loading="lazy" />
+        <div class="gallery-caption">
+          <h4 data-en="Commercial Property Turf" data-es="Césped para Propiedad Comercial">Commercial Property Turf</h4>
+          <p data-en="Large-scale sod work for business properties" data-es="Trabajo de césped a gran escala para propiedades comerciales">Large-scale sod work for business properties</p>
+        </div>
+      </div>
+      <div class="gallery-item" data-photo="frontyard">
+        <img src="sod-frontyard.jpg" alt="Freshly sodded front yard with pallets staged for installation" loading="lazy" />
+        <div class="gallery-caption">
+          <h4 data-en="Staged & Ready" data-es="Preparado y Listo">Staged & Ready</h4>
+          <p data-en="Pallets staged on-site for an efficient install" data-es="Tarimas preparadas en el sitio para una instalación eficiente">Pallets staged on-site for an efficient install</p>
+        </div>
+      </div>
+      <div class="gallery-item" data-photo="texture">
+        <img src="sod-texture.jpg" alt="Close texture of neatly seamed sod squares" loading="lazy" />
+        <div class="gallery-caption">
+          <h4 data-en="Tight Seams" data-es="Uniones Precisas">Tight Seams</h4>
+          <p data-en="Clean lines with no gaps left behind" data-es="Líneas limpias sin espacios">Clean lines with no gaps left behind</p>
+        </div>
+      </div>
+      <div class="gallery-item video-item">
+        <video src="sod-video.mp4" poster="sod-video-poster.jpg" controls preload="none" playsinline muted></video>
+        <div class="gallery-caption">
+          <h4 data-en="Watch The Crew In Action" data-es="Mira al Equipo en Acción">Watch The Crew In Action</h4>
+          <p data-en="A real install day, start to finish" data-es="Un día real de instalación, de principio a fin">A real install day, start to finish</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-label" data-en="Happy Customers" data-es="Clientes Felices">Happy Customers</p>
+      <h2 class="section-title" data-en="What People Say" data-es="Lo Que Dicen">What People Say</h2>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p data-en='"Jorge and his crew sodded our whole front yard in a day. Professional, on time, and it looked incredible the next morning."' data-es='"Jorge y su equipo instalaron césped en todo nuestro jardín en un día. Profesionales, puntuales, y se veía increíble a la mañana siguiente."'>"Jorge and his crew sodded our whole front yard in a day. Professional, on time, and it looked incredible the next morning."</p>
+        <div class="reviewer">— Ken P., Douglasville GA</div>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p data-en='"Best lawn service in the area. My yard always looks amazing and the price is fair. Highly recommend!"' data-es='"El mejor servicio de jardín en el área. Mi patio siempre luce increíble y el precio es justo. ¡Muy recomendado!"'>"Best lawn service in the area. My yard always looks amazing and the price is fair. Highly recommend!"</p>
+        <div class="reviewer">— Maria S., Villa Rica GA</div>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p data-en='"They handled the sod for our business property. Beautiful work, great crew, and fair pricing."' data-es='"Se encargaron del césped de nuestra propiedad comercial. Trabajo hermoso, gran equipo y precios justos."'>"They handled the sod for our business property. Beautiful work, great crew, and fair pricing."</p>
+        <div class="reviewer">— Andre W., Lithia Springs GA</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact-section">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p class="section-label" data-en="Get In Touch" data-es="Contáctanos">Get In Touch</p>
+        <h2 class="section-title" data-en="Free Estimates" data-es="Presupuestos Gratis">Free Estimates</h2>
+        <p class="section-sub" data-en="Call, text, or email Jorge for a free quote. We respond fast!" data-es="Llama, escribe o manda correo a Jorge para un presupuesto. ¡Respondemos rápido!">Call, text, or email Jorge for a free quote. We respond fast!</p>
+
+        <div class="contact-items">
+          <a href="tel:7707105003" class="contact-item">
+            <div class="contact-icon">☎</div>
+            <div>
+              <div class="contact-label" data-en="Phone / Text" data-es="Teléfono / Texto">Phone / Text</div>
+              <div class="contact-value">(770) 710-5003</div>
+            </div>
+          </a>
+          <a href="mailto:Andyturfcare@gmail.com" class="contact-item">
+            <div class="contact-icon">✉</div>
+            <div>
+              <div class="contact-label" data-en="Email" data-es="Correo">Email</div>
+              <div class="contact-value">Andyturfcare@gmail.com</div>
+            </div>
+          </a>
+          <div class="contact-item">
+            <div class="contact-icon">⚑</div>
+            <div>
+              <div class="contact-label" data-en="Service Area" data-es="Área de Servicio">Service Area</div>
+              <div class="contact-value" data-en="Douglasville, GA & surrounding areas" data-es="Douglasville, GA y áreas cercanas">Douglasville, GA & surrounding areas</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">◷</div>
+            <div>
+              <div class="contact-label" data-en="Hours" data-es="Horario">Hours</div>
+              <div class="contact-value" data-en="Mon–Sat, 7am – 6pm" data-es="Lun–Sáb, 7am – 6pm">Mon–Sat, 7am – 6pm</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap">
+        <h3 data-en="Send a Message" data-es="Enviar Mensaje">Send a Message</h3>
+        <form id="contactForm" onsubmit="handleForm(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label data-en="Your Name" data-es="Tu Nombre">Your Name</label>
+              <input type="text" id="fName" required placeholder="John Smith" />
+            </div>
+            <div class="form-group">
+              <label data-en="Phone Number" data-es="Teléfono">Phone Number</label>
+              <input type="tel" id="fPhone" placeholder="(770) 000-0000" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label data-en="Email" data-es="Correo">Email</label>
+            <input type="email" id="fEmail" required placeholder="you@email.com" />
+          </div>
+          <div class="form-group">
+            <label data-en="Service Needed" data-es="Servicio Necesitado">Service Needed</label>
+            <select id="fService">
+              <option data-en="Select a service..." data-es="Selecciona un servicio...">Select a service...</option>
+              <option data-en="Sod Installation" data-es="Instalación de Césped">Sod Installation</option>
+              <option data-en="Lawn Mowing" data-es="Corte de Césped">Lawn Mowing</option>
+              <option data-en="Tree Trimming" data-es="Poda de Árboles">Tree Trimming</option>
+              <option data-en="Planting & Design" data-es="Siembra y Diseño">Planting & Design</option>
+              <option data-en="Hardscaping" data-es="Obras Duras">Hardscaping</option>
+              <option data-en="Irrigation" data-es="Irrigación">Irrigation</option>
+              <option data-en="Other" data-es="Otro">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label data-en="Message" data-es="Mensaje">Message</label>
+            <textarea rows="4" id="fMessage" placeholder="Tell us about your project..." data-en-placeholder="Tell us about your project..." data-es-placeholder="Cuéntanos sobre tu proyecto..."></textarea>
+          </div>
+          <button type="submit" class="btn-submit" data-en="Send Message →" data-es="Enviar Mensaje →">Send Message →</button>
+          <div id="formSuccess" class="form-success" style="display:none" data-en="✅ Opening your email app to send this to Jorge..." data-es="✅ Abriendo tu correo para enviar esto a Jorge...">✅ Opening your email app to send this to Jorge...</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <img src="logo.png" alt="Andy Turf Care" class="brand-logo-footer" />
+    <p data-en="Professional landscaping serving Douglasville, GA and surrounding areas." data-es="Paisajismo profesional sirviendo a Douglasville, GA y áreas cercanas.">Professional landscaping serving Douglasville, GA and surrounding areas.</p>
+    <div class="footer-links">
+      <a href="tel:7707105003">(770) 710-5003</a>
+      <a href="mailto:Andyturfcare@gmail.com">Andyturfcare@gmail.com</a>
+    </div>
+    <p class="footer-copy" data-en="© 2026 Andy Turf Care · Owner: Jorge Molina · All rights reserved." data-es="© 2026 Andy Turf Care · Propietario: Jorge Molina · Todos los derechos reservados.">© 2026 Andy Turf Care · Owner: Jorge Molina · All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
